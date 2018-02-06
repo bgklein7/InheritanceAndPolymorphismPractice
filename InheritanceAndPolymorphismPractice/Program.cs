@@ -17,15 +17,21 @@ namespace InheritanceAndPolymorphismPractice
             //Ottoman ottomanOne = new Ottoman(250, 2500, true);
             //ottomanOne.UpholsteredCost();
 
-            Wizard wizardOne = new Wizard(true);
+            //Wizard wizardOne = new Wizard(true);
 
-            HogwartsStudent longbottom = new HogwartsStudent(7);
+            //HogwartsStudent longbottom = new HogwartsStudent(7);
 
-            DeathEater malfoy = new DeathEater();
+            //DeathEater malfoy = new DeathEater();
 
-            wizardOne.MakeMagic(); //don't need console.writeline
-            longbottom.MakeMagic();
-            malfoy.MakeMagic();
+            //wizardOne.MakeMagic(); //don't need/use console.writeline
+            //longbottom.MakeMagic();
+            //malfoy.MakeMagic();
+
+            StandardMembership gymMember1 = new StandardMembership(100);
+            VIPMembership gymMember2 = new VIPMembership();
+
+            gymMember1.Activate();
+            gymMember2.Activate();
           
         }
     }

@@ -27,12 +27,17 @@ namespace InheritanceAndPolymorphismPractice
             //longbottom.MakeMagic();
             //malfoy.MakeMagic();
 
-            StandardMembership gymMember1 = new StandardMembership(100);
-            VIPMembership gymMember2 = new VIPMembership();
+            //StandardMembership gymMember1 = new StandardMembership(100);
+            //VIPMembership gymMember2 = new VIPMembership();
 
-            gymMember1.Activate();
-            gymMember2.Activate();
-          
+            //gymMember1.Activate();
+            //gymMember2.Activate();
+
+            Microwave microwave1 = new Microwave(1000, "Samsung");
+            Dishwasher dishwasher1 = new Dishwasher(0, true);
+
+            microwave1.Work();
+            dishwasher1.Work();
         }
     }
 }

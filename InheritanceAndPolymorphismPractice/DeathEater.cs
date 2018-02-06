@@ -19,6 +19,17 @@ namespace InheritanceAndPolymorphismPractice
         }
 
         //Constructors
-        public DeathEater() : base(false) { }
+        public DeathEater() : base(false)
+        {
+            //Could also write: this.IsGood = false //would have to get rid of : base(false)
+        }
+
+        //Methods
+
+        public override void MakeMagic()
+        {
+            //base.MakeMagic();//if include this then would do everything in the base class method plus whatever is below
+            Console.WriteLine("Crucio!");
+        }
     }
 }

@@ -35,5 +35,10 @@ namespace InheritanceAndPolymorphismPractice
         {
             return yearInSchool++;
         }
+
+        public override void MakeMagic()
+        {
+            Console.WriteLine("Accio book");
+        }
     }
 }

@@ -19,11 +19,19 @@ namespace InheritanceAndPolymorphismPractice
         }
 
         //Constructors
-        public Wizard() { }
+        public Wizard()
+        {
+        }
 
         public Wizard(bool isGood)
         {
             this.isGood = isGood;
+        }
+
+        //Methods
+        public virtual void MakeMagic()
+        {
+            Console.WriteLine("Wingardium leviosa");
         }
     }
 }
